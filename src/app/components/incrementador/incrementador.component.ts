@@ -10,7 +10,7 @@ import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef }
 export class IncrementadorComponent implements OnInit {
 
   @ViewChild('txtProgres') txtProgress: ElementRef;
-  // tslint:disable-next-line: no-input-rename
+
   @Input('nombre') leyenda: string = 'Leyenda';
   @Input() progreso: number = 50;
 
@@ -27,7 +27,7 @@ export class IncrementadorComponent implements OnInit {
   }
 
   onChanges( newValue: number ) {
-    // tslint:disable-next-line: prefer-const
+
     // let elementHtml: any = document.getElementsByName('progreso')[0];
 
     if (newValue >= 100) {

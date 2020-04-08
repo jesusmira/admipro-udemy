@@ -29,6 +29,7 @@
             "kebab-case"
         ],
         "eofline": true,
+        "prefer-const": false,
         "import-blacklist": [
             true,
             "rxjs/Rx"
@@ -113,6 +114,7 @@
         },
         "variable-name": {
             "options": [
+
                 "ban-keywords",
                 "check-format",
                 "allow-pascal-case"
@@ -131,7 +133,7 @@
         "no-conflicting-lifecycle": true,
         "no-host-metadata-property": true,
         "no-input-rename": false,
-        "no-inputs-metadata-property": true,
+        "no-inputs-metadata-property": false,
         "no-output-native": true,
         "no-output-on-prefix": true,
         "no-output-rename": true,
