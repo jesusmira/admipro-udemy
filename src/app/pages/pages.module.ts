@@ -15,6 +15,8 @@ import {DashboardComponent} from './dashboard/dashboard.component';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficasDonaComponent } from '../components/graficas-dona/graficas-dona.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 // Temporal
@@ -30,7 +32,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
        PagesComponent,
        IncrementadorComponent,
        GraficasDonaComponent,
-       AccountSettingsComponent
+       AccountSettingsComponent,
+       PromesasComponent,
+       RxjsComponent
    ],
    exports: [
       DashboardComponent,
