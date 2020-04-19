@@ -8,11 +8,16 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HeaderComponent } from './header/header.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
+// Pipes
+import { PipesModule } from '../pipes/pipes.module';
+
+
 
 @NgModule({
     imports: [
       RouterModule,
-      CommonModule
+      CommonModule,
+      PipesModule
     ],
     declarations: [
       HeaderComponent,
