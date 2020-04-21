@@ -12,9 +12,7 @@ export class SidebarComponent implements OnInit {
 
   usuario: Usuario;
 
-  // tslint:disable-next-line: variable-name
   constructor(public _sidebar: SidebarService,
-              // tslint:disable-next-line: variable-name
               public _usuarioService: UsuarioService) { }
 
   ngOnInit(): void {
