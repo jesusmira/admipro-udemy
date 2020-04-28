@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ModalUploadService } from '../components/modal-upload/modal-upload.service';
 
 
+
 import {
     SettingsService,
     SidebarService,
@@ -12,7 +13,8 @@ import {
     LoginGuardGuard,
     SubirArchivoService,
     HospitalService,
-    MedicoService
+    MedicoService,
+    AdminGuard
  } from './service.index';
 
 
@@ -27,7 +29,8 @@ import {
     SubirArchivoService,
     ModalUploadService,
     HospitalService,
-    MedicoService
+    MedicoService,
+    AdminGuard
   ],
   imports: [
     CommonModule,
