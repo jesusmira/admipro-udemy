@@ -41,10 +41,10 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
 
 @NgModule({
    declarations: [
+      //  PagesComponent,
        DashboardComponent,
        ProgressComponent,
        Graficas1Component,
-       PagesComponent,
        IncrementadorComponent,
        GraficasDonaComponent,
        AccountSettingsComponent,
@@ -52,7 +52,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
        RxjsComponent,
        ProfileComponent,
        UsuariosComponent,
-       ModalUploadComponent,
+      //  ModalUploadComponent,
        HospitalesComponent,
        MedicosComponent,
        MedicoComponent,
@@ -62,7 +62,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
       DashboardComponent,
       ProgressComponent,
       Graficas1Component,
-      PagesComponent
+      // PagesComponent
   ],
    imports: [
       CommonModule,
